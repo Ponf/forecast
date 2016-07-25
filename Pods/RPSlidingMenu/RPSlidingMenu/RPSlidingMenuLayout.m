@@ -67,7 +67,6 @@ const CGFloat RPSlidingCellDragInterval = 180.0f;
 
     for (NSInteger itemIndex = 0; itemIndex < numItems; itemIndex++) {
         indexPath = [NSIndexPath indexPathForItem:itemIndex inSection:0];
-
         UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
         attributes.zIndex = itemIndex;
         NSInteger yValue = 0.0f;

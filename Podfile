@@ -5,7 +5,7 @@ abstract_target 'iOS' do
 
   pod 'AFNetworking', '3.1.0'
   pod 'Typhoon', '3.5.0'
-  pod 'RPSlidingMenu', :path => '~/projects/RPSlidingMenu'    
+  pod 'RPSlidingMenu', :git => 'https://github.com/Ponf/RPSlidingMenu.git', :branch => 'master' 
   
   target 'forecast'
 end

@@ -48,6 +48,12 @@
 @property (nonatomic) BOOL scrollsToCollapsedRowsOnSelection;
 
 /**
+*  Reuse identifier for custom Sliding menu cells
+*/
+
+@property (nonatomic) NSString * slidingMenuCellReuseIdentifier;
+
+/**
  Returns the number of items(cells) that are in the sliding menu.
  
  @return the number of rows desired in the RPSlidingMenu
@@ -63,7 +69,7 @@
  @param row The row that relates to the data being shown.
  
  */
-- (void)customizeCell:(RPSlidingMenuCell *)slidingMenuCell forRow:(NSInteger)row;
+- (void)customizeCell:(UICollectionViewCell *)slidingMenuCell forRow:(NSInteger)row;
 
 /**
  Called when one of the rows in the RPSlidingMenu is tapped. Requires call to super for animating to that row on collapsed selection

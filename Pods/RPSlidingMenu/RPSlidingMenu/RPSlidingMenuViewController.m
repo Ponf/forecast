@@ -77,7 +77,7 @@ static NSString *RPSlidingCellIdentifier = @"RPSlidingCellIdentifier";
     return 0;
 }
 
-- (void)customizeCell:(RPSlidingMenuCell *)slidingMenuCell forRow:(NSInteger)row {
+- (void)customizeCell:(UICollectionViewCell *)slidingMenuCell forRow:(NSInteger)row {
     NSAssert(NO, @"This method must be overriden in the subclass");
 }
 
@@ -119,7 +119,7 @@ static NSString *RPSlidingCellIdentifier = @"RPSlidingCellIdentifier";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    RPSlidingMenuCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:RPSlidingCellIdentifier forIndexPath:indexPath];
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:_slidingMenuCellReuseIdentifier ?: RPSlidingCellIdentifier forIndexPath:indexPath];
 
     [self customizeCell:cell forRow:indexPath.row];
     return cell;

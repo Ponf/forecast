@@ -21,18 +21,24 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
-  - RPSlidingMenu (from `~/projects/RPSlidingMenu`)
+  - RPSlidingMenu (from `https://github.com/Ponf/RPSlidingMenu.git`, branch `master`)
   - Typhoon (= 3.5.0)
 
 EXTERNAL SOURCES:
   RPSlidingMenu:
-    :path: ~/projects/RPSlidingMenu
+    :branch: master
+    :git: https://github.com/Ponf/RPSlidingMenu.git
+
+CHECKOUT OPTIONS:
+  RPSlidingMenu:
+    :commit: 08101cfc70883d9e5fa82d61a39fd40531a978c3
+    :git: https://github.com/Ponf/RPSlidingMenu.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   RPSlidingMenu: 6e15173d9f483e96bf38c3bec9b5435cefb5e8d3
   Typhoon: 6def9f3abad5be6b2c035103c7dde1c887c48e45
 
-PODFILE CHECKSUM: 2346208c62ebc2de604428ba2677803ccd6eb4ff
+PODFILE CHECKSUM: 5bd3f03b7b9042031f136a7b7349c3cdac247bb5
 
 COCOAPODS: 1.0.1
