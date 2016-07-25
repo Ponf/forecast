@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B408A3129D442E8E4CFCBA93 /* ForecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A8B5EBD6E33E11328031 /* ForecastModel.m */; };
+		B408A33496746082BF9AF6FB /* ForecastDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A3BF320ABB255AC2D860 /* ForecastDTO.m */; };
+		B408A7A460326E7306C0F005 /* NetworkingService.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A50FE06161254225F248 /* NetworkingService.m */; };
+		B408A85C352900132551DC3F /* URLProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B408A6C941BF761D7A121988 /* URLProvider.m */; };
+		B408A979B9CE7C45F2A9173D /* ForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B408AA29A810AF8402A616C2 /* ForecastViewController.m */; };
+		B408AA0321C88DA3942E2EE2 /* CityDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = B408AAA95F3EE5C5CA076C5E /* CityDTO.m */; };
+		B408AACAFEB1A31536FB97AB /* ModelsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = B408ADAF4259626E7CC29EC0 /* ModelsAssembly.m */; };
+		B408AE680E14C0D1CF086B0B /* CityForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B408AF28A88222AB0B681DA4 /* CityForecastCell.m */; };
 		C2FD68F61D462D6C007F1F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD68F51D462D6C007F1F1B /* main.m */; };
 		C2FD68F91D462D6C007F1F1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD68F81D462D6C007F1F1B /* AppDelegate.m */; };
-		C2FD68FC1D462D6C007F1F1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD68FB1D462D6C007F1F1B /* ViewController.m */; };
 		C2FD68FF1D462D6C007F1F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD68FD1D462D6C007F1F1B /* Main.storyboard */; };
 		C2FD69011D462D6C007F1F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FD69001D462D6C007F1F1B /* Assets.xcassets */; };
 		C2FD69041D462D6C007F1F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD69021D462D6C007F1F1B /* LaunchScreen.storyboard */; };
 		C2FD690F1D462D6C007F1F1B /* forecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FD690E1D462D6C007F1F1B /* forecastTests.m */; };
+		C85587BCB12AB3D2DF5BDB45 /* Pods_iOS_forecast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1138A2081299DA93F10A4866 /* Pods_iOS_forecast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +35,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1138A2081299DA93F10A4866 /* Pods_iOS_forecast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_forecast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A5C33814D3522855AC376C /* Pods-iOS-forecast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-forecast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-forecast/Pods-iOS-forecast.debug.xcconfig"; sourceTree = "<group>"; };
+		B408A0A1AB3D7C192B1DA639 /* NetworkingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingService.h; sourceTree = "<group>"; };
+		B408A0B79EA50507FACC3956 /* ForecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastModel.h; sourceTree = "<group>"; };
+		B408A0F6A092801CC41DACB4 /* CityForecastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityForecastCell.h; sourceTree = "<group>"; };
+		B408A3BF320ABB255AC2D860 /* ForecastDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastDTO.m; sourceTree = "<group>"; };
+		B408A50FE06161254225F248 /* NetworkingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingService.m; sourceTree = "<group>"; };
+		B408A6C941BF761D7A121988 /* URLProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLProvider.m; sourceTree = "<group>"; };
+		B408A8B5EBD6E33E11328031 /* ForecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastModel.m; sourceTree = "<group>"; };
+		B408A97BB45B9E562962528E /* ModelsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelsAssembly.h; sourceTree = "<group>"; };
+		B408AA26AB033233C19E90F5 /* CityDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDTO.h; sourceTree = "<group>"; };
+		B408AA29A810AF8402A616C2 /* ForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastViewController.m; sourceTree = "<group>"; };
+		B408AAA95F3EE5C5CA076C5E /* CityDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDTO.m; sourceTree = "<group>"; };
+		B408AC3F676C0021A7BE968C /* ForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastViewController.h; sourceTree = "<group>"; };
+		B408ADAF4259626E7CC29EC0 /* ModelsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelsAssembly.m; sourceTree = "<group>"; };
+		B408AE19FA4E81D8EE2618AD /* ForecastDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastDTO.h; sourceTree = "<group>"; };
+		B408AEFECD1E7FFA997B2D13 /* URLProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLProvider.h; sourceTree = "<group>"; };
+		B408AF28A88222AB0B681DA4 /* CityForecastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityForecastCell.m; sourceTree = "<group>"; };
 		C2FD68F11D462D6C007F1F1B /* forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FD68F51D462D6C007F1F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2FD68F71D462D6C007F1F1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2FD68F81D462D6C007F1F1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2FD68FA1D462D6C007F1F1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2FD68FB1D462D6C007F1F1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2FD68FE1D462D6C007F1F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2FD69001D462D6C007F1F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2FD69031D462D6C007F1F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +64,7 @@
 		C2FD690A1D462D6C007F1F1B /* forecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = forecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FD690E1D462D6C007F1F1B /* forecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forecastTests.m; sourceTree = "<group>"; };
 		C2FD69101D462D6C007F1F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9F9BE3AF409950D90E7D64 /* Pods-iOS-forecast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-forecast.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-forecast/Pods-iOS-forecast.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85587BCB12AB3D2DF5BDB45 /* Pods_iOS_forecast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +86,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88011645BBB993A2157C2404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62A5C33814D3522855AC376C /* Pods-iOS-forecast.debug.xcconfig */,
+				CA9F9BE3AF409950D90E7D64 /* Pods-iOS-forecast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D136570123BA9E1767C4396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1138A2081299DA93F10A4866 /* Pods_iOS_forecast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B408A2FB2E06A93B54E45ADA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B408A50FE06161254225F248 /* NetworkingService.m */,
+				B408A0A1AB3D7C192B1DA639 /* NetworkingService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B408A43E9745E7862DE38990 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B408A6C941BF761D7A121988 /* URLProvider.m */,
+				B408AEFECD1E7FFA997B2D13 /* URLProvider.h */,
+				B408ADAF4259626E7CC29EC0 /* ModelsAssembly.m */,
+				B408A97BB45B9E562962528E /* ModelsAssembly.h */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		B408A442EE388AE07AAF6558 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B408AA29A810AF8402A616C2 /* ForecastViewController.m */,
+				B408AC3F676C0021A7BE968C /* ForecastViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B408A63F0C6340E509CA4C78 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				B408AAA95F3EE5C5CA076C5E /* CityDTO.m */,
+				B408AA26AB033233C19E90F5 /* CityDTO.h */,
+				B408A3BF320ABB255AC2D860 /* ForecastDTO.m */,
+				B408AE19FA4E81D8EE2618AD /* ForecastDTO.h */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		B408A6C790FEA71BAF2AC458 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B408AF28A88222AB0B681DA4 /* CityForecastCell.m */,
+				B408A0F6A092801CC41DACB4 /* CityForecastCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B408AAA30E66ABD1EFE772AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B408A8B5EBD6E33E11328031 /* ForecastModel.m */,
+				B408A0B79EA50507FACC3956 /* ForecastModel.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C2FD68E81D462D6C007F1F1B = {
 			isa = PBXGroup;
 			children = (
 				C2FD68F31D462D6C007F1F1B /* forecast */,
 				C2FD690D1D462D6C007F1F1B /* forecastTests */,
 				C2FD68F21D462D6C007F1F1B /* Products */,
+				88011645BBB993A2157C2404 /* Pods */,
+				9D136570123BA9E1767C4396 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +186,17 @@
 			children = (
 				C2FD68F71D462D6C007F1F1B /* AppDelegate.h */,
 				C2FD68F81D462D6C007F1F1B /* AppDelegate.m */,
-				C2FD68FA1D462D6C007F1F1B /* ViewController.h */,
-				C2FD68FB1D462D6C007F1F1B /* ViewController.m */,
 				C2FD68FD1D462D6C007F1F1B /* Main.storyboard */,
 				C2FD69001D462D6C007F1F1B /* Assets.xcassets */,
 				C2FD69021D462D6C007F1F1B /* LaunchScreen.storyboard */,
 				C2FD69051D462D6C007F1F1B /* Info.plist */,
 				C2FD68F41D462D6C007F1F1B /* Supporting Files */,
+				B408AAA30E66ABD1EFE772AF /* Models */,
+				B408A43E9745E7862DE38990 /* Infrastructure */,
+				B408A2FB2E06A93B54E45ADA /* Services */,
+				B408A442EE388AE07AAF6558 /* ViewControllers */,
+				B408A63F0C6340E509CA4C78 /* DTOs */,
+				B408A6C790FEA71BAF2AC458 /* Cells */,
 			);
 			path = forecast;
 			sourceTree = "<group>";
@@ -118,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2FD69131D462D6C007F1F1B /* Build configuration list for PBXNativeTarget "forecast" */;
 			buildPhases = (
+				09E8DE25CAE67471CC287C58 /* [CP] Check Pods Manifest.lock */,
 				C2FD68ED1D462D6C007F1F1B /* Sources */,
 				C2FD68EE1D462D6C007F1F1B /* Frameworks */,
 				C2FD68EF1D462D6C007F1F1B /* Resources */,
+				AE782DC806754CD0D94C5A63 /* [CP] Embed Pods Frameworks */,
+				F2EE518416B98FCFAE8BCC20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,14 +316,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09E8DE25CAE67471CC287C58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE782DC806754CD0D94C5A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-forecast/Pods-iOS-forecast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EE518416B98FCFAE8BCC20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-forecast/Pods-iOS-forecast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2FD68ED1D462D6C007F1F1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2FD68FC1D462D6C007F1F1B /* ViewController.m in Sources */,
 				C2FD68F91D462D6C007F1F1B /* AppDelegate.m in Sources */,
 				C2FD68F61D462D6C007F1F1B /* main.m in Sources */,
+				B408A979B9CE7C45F2A9173D /* ForecastViewController.m in Sources */,
+				B408A85C352900132551DC3F /* URLProvider.m in Sources */,
+				B408AACAFEB1A31536FB97AB /* ModelsAssembly.m in Sources */,
+				B408AA0321C88DA3942E2EE2 /* CityDTO.m in Sources */,
+				B408A3129D442E8E4CFCBA93 /* ForecastModel.m in Sources */,
+				B408AE680E14C0D1CF086B0B /* CityForecastCell.m in Sources */,
+				B408A7A460326E7306C0F005 /* NetworkingService.m in Sources */,
+				B408A33496746082BF9AF6FB /* ForecastDTO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +506,7 @@
 		};
 		C2FD69141D462D6C007F1F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A5C33814D3522855AC376C /* Pods-iOS-forecast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = forecast/Info.plist;
@@ -352,6 +518,7 @@
 		};
 		C2FD69151D462D6C007F1F1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9F9BE3AF409950D90E7D64 /* Pods-iOS-forecast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = forecast/Info.plist;
@@ -404,6 +571,7 @@
 				C2FD69151D462D6C007F1F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2FD69161D462D6C007F1F1B /* Build configuration list for PBXNativeTarget "forecastTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +580,7 @@
 				C2FD69181D462D6C007F1F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module RPSlidingMenu {
+  umbrella header "RPSlidingMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
